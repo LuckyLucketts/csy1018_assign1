@@ -34,6 +34,55 @@ header {
   justify-content: center;
 }
 
+.contact-title {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.bio-title {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.cv-title {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
 .home-content {
   font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%
+
+}
+
+.profile-image-container {
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+}
+
+.profile-image-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.profile-image {
+  display: flex;
+  transform: rotate(90deg);
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  margin-left: 50%;
+  margin-right: 50%;
+  border: 5px solid rgba(230, 230, 230, 0.8);
 }
