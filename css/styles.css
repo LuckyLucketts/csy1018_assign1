@@ -1,0 +1,39 @@
+/* Jamie Luckett 16407112 */
+body {
+   margin: 0px;
+}
+
+.toolbar-item {
+  font-family: 'Montserrat', 'sans-serif';
+  border: 5px;
+  font-size: 30px
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.toolbar-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0px;
+}
+
+header {
+    background-color: rgb(200, 200, 200);
+    border: solid rgb(0, 0, 0) 10px;
+}
+
+.home-title {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content {
+  font-family: 'Josefin Sans', sans-serif;
+}
