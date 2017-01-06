@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <!-- Jamie Luckett 16407112 !-->
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Contact page</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
         <ul class="toolbar-list">
             <li class="toolbar-item">
@@ -25,5 +28,32 @@
         </ul>
     </header>
     <h1 class="contact-title">Contact Me</h1>
-  </body>
+    <h1 class="input-form">
+      <h1 class="name-input">
+        <label class="name-label">Name:</label>
+        <input class="name-box" type="text" placeholder="Name"/>
+      </h1>
+      <h1 class="email-input">
+        <label class="email-label">Email Address:</label>
+        <input class="email-input" type="text" placeholder="example@example.com"/>
+      </h1>
+      <h1 class="subject-input">
+        <label class="subject-label">Subject:</label>
+        <input class="subject-input" type="text" placeholder="Write the subject of the email here" />
+      </h1>
+      <h1 class="content-input">
+        <label class="content-label">Content:</label>
+        <textarea class="content-input" placeholder="Write the content of the email here" rows="4" cols="40"></textarea>
+      </h1>
+      <h1 class="reply-selection">
+        <label class="reply-label">Do you want a reply?</label>
+        <select name="reply-box">
+          <option value="Yes" selected="true">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </h1>
+      <button class="send-button">Send</button>
+    </h1>
+</body>
+
 </html>
