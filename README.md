@@ -24,3 +24,22 @@ This assignment has taken me about 50 hours to complete.
 
 Storyboards and designs
 ---------------
+**Home Page Design**
+
+![Home Page](images/home_page_design.png)
+
+**Biography Page Design**
+
+![Biography Page](images/biography_page_design.png)
+
+**Cv Page Design**
+
+![Cv Page](images/cv_page_design.png)
+
+**Contact Page Design**
+
+![Contact Page](images/contact_page_design.png)
+
+**Site Mapping**
+
+![Site Map](images/site_map.png)
