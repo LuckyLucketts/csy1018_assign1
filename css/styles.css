@@ -1,6 +1,10 @@
 /* Jamie Luckett 16407112 */
 body {
+<<<<<<< HEAD
+   margin: 0;
+=======
    margin: 0px;
+>>>>>>> 1945c3991b86c01d948d88c8b40a4b2d946cea16 /*Accidentally deleted and the css on github was an old version and replacement from the recycle bin changed some of the lines */
 }
 
 .toolbar-item {
@@ -19,7 +23,21 @@ a {
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
+<<<<<<< HEAD
+  padding: 0;
+}
+
+@media (max-width: 425px) {
+  .toolbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+=======
   padding: 0px;
+>>>>>>> 1945c3991b86c01d948d88c8b40a4b2d946cea16
 }
 
 header {
@@ -84,5 +102,126 @@ header {
   width: 150px;
   margin-left: 50%;
   margin-right: 50%;
+<<<<<<< HEAD
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border: 5px solid rgba(230, 230, 230, 0.8);
 }
+
+.name-label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.email-label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.subject-label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.content-label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.reply-label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.cv-intro {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-education-title {
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-coursework-title {
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-experience-title {
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-skills-title {
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-activities-title {
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-education-text {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 15px;
+}
+
+.cv-coursework-text {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 15px;
+}
+
+.cv-experience-text {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 15px;
+}
+
+.cv-skills-text {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 15px;
+}
+
+.cv-activities-text {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 15px;
+}
+=======
+  border: 5px solid rgba(230, 230, 230, 0.8);
+}
+>>>>>>> 1945c3991b86c01d948d88c8b40a4b2d946cea16
