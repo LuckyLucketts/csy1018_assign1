@@ -27,6 +27,23 @@ a {
   padding: 0;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer-item {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 15px;
+}
+
+.copyright {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 15px;
+}
+
 @media (max-width: 425px) {
   .toolbar-list {
     display: flex;
@@ -43,6 +60,13 @@ a {
 header {
     background-color: rgb(200, 200, 200);
     border: solid rgb(0, 0, 0) 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    border: solid rgb(0, 0, 0) 10px;
+    padding: 0;
 }
 
 .home-title {
