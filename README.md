@@ -1,7 +1,17 @@
 # csy1018_assign1
+
 16407112 Jamie Luckett
+==========================
 
 Web link: http://luckylucketts.github.io/csy1018_assign1
+=======================================
+
+Assignment 1 Web Development
+=================================
+
+Due: 23:59 Sunday 15/01/2017
+========================================
+
 What work have I done?
 ---------------
 I have created a website with 4 different pages on, these are
