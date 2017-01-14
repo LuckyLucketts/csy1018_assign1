@@ -7,7 +7,7 @@ What work have I done?
 I have created a website with 4 different pages on, these are
 - A home page
   - This is the page that is accessed at the start and includes an introduction about what the site is about and who I am, and also a picture of me with a header which is on all the pages which has links to the other pages, as well as a footer with a link to my github page and my email with icons for each
-- A biogrphy page
+- A biography page
   - This is the page that includes a short biography about who I am and what I do
 - A cv page
   - This is the page that includes a short introduction, information about my education, relevant coursework that I am doing, experience, relevant skills I have and also any activites that are relevant but not related to my education.
