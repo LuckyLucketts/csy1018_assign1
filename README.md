@@ -1,5 +1,7 @@
 # csy1018_assign1
 16407112 Jamie Luckett
+
+Web link: http://luckylucketts.github.io/csy1018_assign1
 What work have I done?
 ---------------
 I have created a website with 4 different pages on, these are
