@@ -7,18 +7,26 @@ body {
 >>>>>>> 1945c3991b86c01d948d88c8b40a4b2d946cea16 /*Accidentally deleted and the css on github was an old version and replacement from the recycle bin changed some of the lines */
 }
 
-.toolbar-item {
+.toolbar-item { /*This is what changes the font of each of the items in the header*/
   font-family: 'Montserrat', 'sans-serif';
   border: 5px;
   font-size: 30px
 }
 
-a {
+p {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 15px;
+}
+
+a { /*This is what changes the design and colour of the links on the screen*/
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
-.toolbar-list{
+.toolbar-list{ /*This is what changes the listing order and orientation to make the toolbar horizontal and with no list style*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -34,7 +42,7 @@ a {
   list-style: none;
 }
 
-.footer-item {
+.footer-item { /*This is what changes the font of each of the items in the footer*/
   font-family: 'Montserrat', 'sans-serif';
   font-size: 15px;
 }
@@ -44,7 +52,7 @@ a {
   font-size: 15px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 425px) { /*This is a media query which changes the layout of the toolbar from horizontal to vertical when viewed on a phone*/
   .toolbar-list {
     display: flex;
     flex-direction: column;
@@ -57,12 +65,12 @@ a {
 >>>>>>> 1945c3991b86c01d948d88c8b40a4b2d946cea16
 }
 
-header {
+header { /*This is what changes the design of the header to a grey background with a black border*/
     background-color: rgb(200, 200, 200);
     border: solid rgb(0, 0, 0) 10px;
 }
 
-footer {
+footer { /*This is what changes the design of the footer to a grey background with a black border*/
     display: flex;
     background-color: rgb(200, 200, 200);
     border: solid rgb(0, 0, 0) 10px;
@@ -90,14 +98,14 @@ footer {
   justify-content: center;
 }
 
-.cv-title {
+.cv-title { /*Each of the title classes changes the font, size and positioning of the title of each page*/
   font-size: 30px;
   font-family: 'Josefin Sans', sans-serif;
   display: flex;
   justify-content: center;
 }
 
-.home-content {
+.home-content { /*This changes the font and the location of the text on the page*/
   font-family: 'Josefin Sans', sans-serif;
   display: flex;
   justify-content: center;
@@ -112,13 +120,13 @@ footer {
   flex-direction: column;
 }
 
-.profile-image-title {
+.profile-image-title { /*This is what changes the font and positioning of the title underneath the profile picture*/
   display: flex;
   justify-content: center;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.profile-image {
+.profile-image { /*This is what moves the picture to the middle of the web page and adds a border around it to simulate it floating above the page*/
   display: flex;
   transform: rotate(90deg);
   justify-content: center;
@@ -153,16 +161,8 @@ footer {
   font-size: 25px;
 }
 
-.reply-label {
+.reply-label { /*Each of the label classes changes the font and size of the text which goes before each of the input boxes on the contact page*/
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
-}
-
-.cv-intro {
-  display: flex;
-  font-family: 'Josefin Sans', sans-serif;
-  justify-content: flex-start;
-  margin-right: 50%;
   font-size: 25px;
 }
 
@@ -198,9 +198,17 @@ footer {
   font-size: 25px;
 }
 
-.cv-activities-title {
+.cv-activities-title { /*Each of the title classes for the cv page changes the font size and type, and the positioning of each of the titles*/
   display: flex;
   font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
+}
+
+.cv-intro {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
   justify-content: flex-start;
   margin-right: 50%;
   font-size: 25px;
@@ -238,12 +246,20 @@ footer {
   font-size: 15px;
 }
 
-.cv-activities-text {
+.cv-activities-text { /*Each of the text classes (and the intro) for the cv page changes the font size and type, and the positioning of the text*/
   display: flex;
   font-family: 'Josefin Sans', sans-serif;
   justify-content: flex-start;
   margin-right: 50%;
   font-size: 15px;
+}
+
+.bio-subtitle {
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content: flex-start;
+  margin-right: 50%;
+  font-size: 25px;
 }
 =======
   border: 5px solid rgba(230, 230, 230, 0.8);
